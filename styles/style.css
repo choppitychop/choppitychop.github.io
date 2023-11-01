@@ -6,47 +6,31 @@ body{
 	text-align: center;
 	
 }
-.trianglelist{
-	list-style-type: disclosure-open;
-}
-.myShadow{
-	text-shadow: 4px 4px 4px orangered;
-}
-.boldunderline{
-	text-decoration: underline;
-	font-weight: bold;
-}
-.bold{
-	font-weight: bold;
-}
 
-@media(min-width: 768px){
-	.experience-container{
-		display: flex;
-		justify-content: space-between;
-	}
-
-}
-
-.flex-box-1, 
-.skills-container, 
-.education-container,
-.cover-letter-content-container {
-	border: 1px blue solid;
-}
-.flex-box-1{
-	flex-basis: 32%;
-}
-.cover-letter-content-container{
-	text-align: left;
-}
-.date-container{
-		display: flex;
-		justify-content: end;
-}
-.myPicture{
+.picture{
 	width: 300px;
 	height: 300px;
 }
-
-
+.row {
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.boldunderline {
+    text-decoration: underline;
+	font-weight: bold;
+}
+.trianglelist {
+    list-style-type: disclosure-open;
+}
+.bold {
+    font-weight: bold;
+}
+.date {
+    text-align: right;
+}
+.cl-content{
+    text-align: left;
+}
+.shadow {
+    text-shadow: 4px 4px 4px orangered;
+}
