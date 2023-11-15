@@ -42,6 +42,9 @@ function game(){
             alert("You win! Computer chose Paper")
         }
     }
+    else {
+        alert("Invalid choice, enter 1, 2 or 3")
+    }
 }
 
 
